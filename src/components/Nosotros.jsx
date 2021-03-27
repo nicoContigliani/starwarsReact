@@ -6,7 +6,7 @@ import {
     Route,
     Link,
     NavLink
-  } from "react-router-dom";
+} from "react-router-dom";
 
 const Nosotros = () => {
 
@@ -20,7 +20,7 @@ const Nosotros = () => {
     const getDatos = async () => {
         const req = await axios.get("https://swapi.dev/api/people/");
         const reqs = req.data.results;
-        console.log(reqs);
+        // console.log(reqs);
         setPersonaje(reqs)
     }
 
@@ -35,11 +35,11 @@ const Nosotros = () => {
                     <br />
                     {
                         personaje.map((item, id) => (
-                             <div key={id}> 
-                             
-                             <Link to={`/nosotros/${id}`} className="btn btn-outline-warning">{item.name}</Link>
-                             
-                              </div>
+                            <div key={id}>
+
+                                <Link to={`/nosotros/${id}`} className="btn btn-outline-warning">{item.name}</Link>
+
+                            </div>
 
                         ))
                     }
