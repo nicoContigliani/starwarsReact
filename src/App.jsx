@@ -14,21 +14,25 @@ import {
 
 function App() {
   return (
-    <div>
-      <h1>Natvbar</h1>
-
+    <div >
+      <h1 className="nat">StarWars</h1>
+<br/>
       <Router>
+        <div className="nat">
+
+
+         <Link to="/" className="btn btn-dark">
+              Inicio
+          </Link> 
         <Link to="/personaje" className="btn btn-dark">
           Personajes
           </Link>
 
-        {/* <Link to="/" className="btn btn-dark">
-              Inicio
-          </Link> */}
 
         <Link to="/contacto" className="btn btn-dark">
           Contacto
           </Link>
+        </div>
 
 
         <Switch>

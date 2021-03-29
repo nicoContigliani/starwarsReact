@@ -5,10 +5,26 @@ h1{
   color: darkgoldenrod;
 }
 .starwars{
-  background: darkgoldenrod;
+  background: rgba(184, 135, 11, 0.782);
   border: 1px solid black;
  width: auto;
  word-wrap: break-word;
  margin: 5px 5px 10px 5px; 
  border-radius: 5px;
+}
+.nat{
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+
+}
+.t{
+  width: 20%;
+}
+
+.caja{
+  background:rgba(187, 178, 178, 0.282);
+  border-radius: 5px;
+  word-wrap: break-word;
+  color: blanchedalmond;
 }
