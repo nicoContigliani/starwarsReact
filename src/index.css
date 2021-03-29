@@ -6,4 +6,9 @@ h1{
 }
 .starwars{
   background: darkgoldenrod;
+  border: 1px solid black;
+ width: auto;
+ word-wrap: break-word;
+ margin: 5px 5px 10px 5px; 
+ border-radius: 5px;
 }

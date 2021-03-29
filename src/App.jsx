@@ -1,8 +1,8 @@
 import './App.css';
 import Contacto from './components/Contacto';
-import Nosotros from './components/Nosotros';
+import Personaje from './components/Personaje';
 import Inicio from './components/Inicio';
-import User from './components/User';
+import Descripcion from './components/Descripcion';
 
 import {
   BrowserRouter as Router,
@@ -18,32 +18,32 @@ function App() {
       <h1>Natvbar</h1>
 
       <Router>
-      <Link to="/nosotros" className="btn btn-dark">
-              Nosotros
-          </Link>
-       
-          <Link to="/" className="btn btn-dark">
-              Inicio
+        <Link to="/personaje" className="btn btn-dark">
+          Personajes
           </Link>
 
-          <Link to="/contacto" className="btn btn-dark">
-              Contacto
+        {/* <Link to="/" className="btn btn-dark">
+              Inicio
+          </Link> */}
+
+        <Link to="/contacto" className="btn btn-dark">
+          Contacto
           </Link>
 
 
         <Switch>
           <Route path="/contacto">
-              <Contacto/>
+            <Contacto />
           </Route>
-          <Route path="/nosotros/:id">
-               <User/> 
-              
+          <Route path="/personaje/:id">
+            <Descripcion />
+
           </Route>
-          <Route path="/nosotros">
-              <Nosotros/>
+          <Route path="/personaje">
+            <Personaje />
           </Route>
           <Route path="/">
-              <Inicio/>
+            <Inicio />
           </Route>
         </Switch>
 
