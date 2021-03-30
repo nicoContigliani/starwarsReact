@@ -28,5 +28,7 @@ h1{
   word-wrap: break-word;
   color: blanchedalmond;
   justify-content: center;
+  padding: 10px 5px 10px 5px; 
+  align-items: center;
 
 }

@@ -10,11 +10,11 @@ const Contacto = () => {
                     <br/><hr/>
                     
                 <h2>Teléfono</h2>
-                 <h3>2612444106</h3>
+                 <h4>2612444106</h4>
                  <br/><hr/>
 
                  <h2>Linkedin</h2>
-                 <h3>www.linkedin.com/in/nicolas-contigliani</h3>
+                 <h4>www.linkedin.com/in/nicolas-contigliani</h4>
                  <br/><hr/>
 
                 </div>

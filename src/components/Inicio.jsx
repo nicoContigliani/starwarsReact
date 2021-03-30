@@ -59,10 +59,10 @@ const Inicio = () => {
                 <div class="text-center">
 
 
-                    <img src={img}  className="t" />
+                    <img src={img} className="t" />
 
                 </div>
-<br/>
+                <br />
 
                 <div className="caja">
 
